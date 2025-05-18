@@ -86,6 +86,59 @@ body {
   display: none;
 }
 
+/* Dropdown wrapper */
+.navbar-nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown toggle style (if needed) */
+.navbar-nav .dropdown-toggle {
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.4rem;
+}
+
+/* Dropdown menu */
+.navbar-nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+}
+
+/* Dropdown item links */
+.navbar-nav .dropdown-menu a {
+  color: var(--secondary);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.3rem;
+}
+
+.navbar-nav .dropdown-menu a:hover {
+  background-color: var(--bg);
+}
+
+/* Show menu on hover (for desktop) */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Dropdown indicator */
+.dropdown-toggle::after {
+  content: " ▼";
+  font-size: 0.8rem;
+}
+
+
 /* Hero Srctionn */
 .hero {
   min-height: 100vh;
@@ -299,7 +352,7 @@ footer .socials a {
 
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--bg);
+  color: #fff;
 }
 
 footer .links {
@@ -316,8 +369,12 @@ footer .credit {
 }
 
 footer .credit a {
-  color: var(--bg);
+  color: var(--primary);
   font-weight: 700;
+}
+
+footer .credit p {
+  color: #fff;
 }
 
 /* Media Queries */
