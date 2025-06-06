@@ -550,13 +550,7 @@ footer .credit p {
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 300;
-  text-align: center;
-  text-align: center;
-  max-width: 30rem;
-  margin: auto;
-  font-weight: 100;
-  line-height: 1.6;
-  margin-bottom: 3rem;
+  text-align: center; 
 }
 
 .struktur .row {
