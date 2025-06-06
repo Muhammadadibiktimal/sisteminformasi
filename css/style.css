@@ -551,6 +551,12 @@ footer .credit p {
   line-height: 1.4;
   font-weight: 300;
   text-align: center;
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+  margin-bottom: 3rem;
 }
 
 .struktur .row {
@@ -624,6 +630,14 @@ footer .credit p {
   .struktur .row .struktur-card {
     width: 100%;
   }
+}
+
+.struktur .divisi-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: var(--primary);
 }
 
 /* Pastikan style untuk menu-card-price tidak terpengaruh */
