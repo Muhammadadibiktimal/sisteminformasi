@@ -26,7 +26,7 @@
     <nav class="navbar">
       <a href="#" class="navbar-logo">HMSI <span>UNPAM</span></a>
       <div class="navbar-nav">
-        <a href="index.html">Beranda</a>
+        <a href="#home">Beranda</a>
         <div class="dropdown">
           <a href="#home" class="dropdown-toggle">Profil ▾</a>
           <div class="dropdown-menu">
@@ -35,14 +35,15 @@
             <a href="profil/struktural.html">Struktur Organisasi</a>
           </div>
         </div>
-        <div class="dropdown">
+        <!-- <div class="dropdown">
           <a href="#about" class="dropdown-toggle">Kegiatan ▾</a>
           <div class="dropdown-menu">
             <a href="#rutin">Kegiatan Rutin</a>
             <a href="#tahunan">Kegiatan Tahunan</a>
             <a href="#kerjasama">Kerja Sama</a>
           </div>
-        </div>
+        </div> -->
+        <a href="kegiatan/kegiatan.html">Kegiatan</a>
         <div class="dropdown">
           <a href="#menu" class="dropdown-toggle">Informasi ▾</a>
           <div class="dropdown-menu">
@@ -98,27 +99,33 @@
       </p>
       <div class="row">
         <div class="menu-card">
-          <img src="img/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <img src="img/gallery/IMG_4667.JPG" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title"></h3>
           <p class="menu-card-price"></p>
         </div>
         <div class="menu-card">
-          <img src="img/2.jpeg" alt="Espresso" class="menu-card-img" />
+          <img src="img/gallery/1.jpeg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title"></h3>
+          <p class="menu-card-price"></p>
+        </div>
+        <div class="menu-card">
+          <img src="img/gallery/2.jpeg" alt="Espresso" class="menu-card-img" />
           <!-- <h3 class="menu-card-title">- Koding Santai -</h3> -->
           <!-- <p class="menu-card-price">HMSI Unpam</p> -->
         </div>
         <div class="menu-card">
-          <img src="img/3.jpeg" alt="Espresso" class="menu-card-img" />
+          <img src="img/gallery/3.jpeg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-title"></h3>
           <p class="menu-card-price"></p>
         </div>
         <div class="menu-card">
-          <img src="img/4.jpeg" alt="Espresso" class="menu-card-img" />
+          <img src="img/gallery/4.jpeg" alt="Espresso" class="menu-card-img" />   
+
           <h3 class="menu-card-title"></h3>
           <p class="menu-card-price"></p>
         </div>
         <div class="menu-card">
-          <img src="img/5.jpeg" alt="Espresso" class="menu-card-img" />
+          <img src="img/gallery/5.jpeg" alt="Espresso" class="menu-card-img" />   
           <h3 class="menu-card-title"></h3>
           <p class="menu-card-price"></p>
         </div>
@@ -140,21 +147,39 @@
           referrerpolicy="no-referrer-when-downgrade"
           class="map"
         ></iframe>
-        <form action="">
+        <form id="whatsappForm" action="javascript:void(0);">
           <div class="input-grup">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama" />
+            <input type="text" name="nama" placeholder="nama" />
           </div>
           <div class="input-grup">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="email" />
+            <input type="text" name="email" placeholder="email" />
           </div>
           <div class="input-grup">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="no hp" />
+            <input type="text" name="nohp" placeholder="no hp" />
           </div>
           <button type="submit" class="btn">Kirim pesan</button>
         </form>
+        <!-- <div class="contact-info">
+          <div class="input-grup">
+            <i data-feather="instagram"></i>
+            <a href="https://www.instagram.com/hmsi_unpam" target="_blank">instagram.com/hmsi_unpam</a>
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <a href="mailto:hmsi.unpam@gmail.com">hmsi.unpam@gmail.com</a>
+          </div>
+          <div class="input-grup">
+            <i data-feather="video"></i>
+            <a href="https://www.tiktok.com/@hmsi_unpam" target="_blank">tiktok.com/@hmsi_unpam</a>
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <a href="https://wa.me/+6289652150435" target="_blank">+62 896-5215-0435</a>
+          </div>
+        </div> -->
       </div>
     </section>
     <!-- Contact Section end -->

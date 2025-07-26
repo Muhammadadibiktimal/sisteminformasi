@@ -58,4 +58,25 @@ document.addEventListener('DOMContentLoaded', () => {
       lightbox.classList.remove('active');
     }
   });
+
+  // WhatsApp form submission handler
+  const form = document.getElementById('whatsappForm');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const nama = form.elements['nama'].value.trim();
+    const email = form.elements['email'].value.trim();
+    const nohp = form.elements['nohp'].value.trim();
+
+    if (!nama || !email || !nohp) {
+      alert('Mohon lengkapi semua field sebelum mengirim pesan.');
+      return;
+    }
+
+    const phoneNumber = '6289652150435'; // WhatsApp number without '+' and leading zeros
+    const message = `Halo, nama saya ${nama}. Email saya ${email}. Nomor HP saya ${nohp}. Saya ingin menghubungi Anda.`;
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappURL, '_blank');
+  });
 });

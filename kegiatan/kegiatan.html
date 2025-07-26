@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMSI Unpam</title>
+    <link rel="shortcut icon" href="../img/HMSI.png" type="image/x-icon" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">HMSI <span>UNPAM</span></a>
+      <div class="navbar-nav">
+        <a href="../index.html">Beranda</a>
+        <div class="dropdown">
+          <a href="#home" class="dropdown-toggle">Profil ▾</a>
+          <div class="dropdown-menu">
+            <a href="../profil/sejarah.html">Sejarah</a>
+            <a href="../profil/visi_misi.html">Visi & Misi</a>
+            <a href="../profil/struktural.html">Struktur Organisasi</a>
+          </div>
+        </div>
+        <a href="kegiatan.html">Kegiatan</a>
+        <div class="dropdown">
+          <a href="#menu" class="dropdown-toggle">Informasi ▾</a>
+          <div class="dropdown-menu">
+            <a href="#informasi1">Berita</a>
+            <a href="#informasi2">Agenda</a>
+            <a href="#informasi3">Pengumuman</a>
+          </div>
+        </div> 
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Kegiatan start -->
+    <section id="kegiatan" class="menu kegiatan">
+        <div class="row kegiatan-wrapper">
+          <div class="menu-card">
+            <img src="../img//gallery/IMG_4667.JPG" alt="Kegiatan 4" class="menu-card-img" />
+            <h3 class="menu-card-title"><a href="">IMPACT SI</a></h3>
+            <p class="menu-card-price">IMPACT SI adalah sebuah kegiatan praktik yang dibentuk untuk membantu mahasiswa Sistem Informasi Universitas Pamulang dalam meningkatkan kemampuan teknis dan non-teknis.</p>
+          </div>  
+          <div class="menu-card">
+            <img src="../img/gallery/4.jpeg" alt="Kegiatan 3" class="menu-card-img" />
+            <h3 class="menu-card-title"><a href="">RAKASI IV</a></h3>
+            <p class="menu-card-price">Ramadhan Kareem With HMSI yang dimana kegiatan tersebut diisi dengan berbagi takjil dan juga santunan anak yatim & dhuafa.</p>
+          </div>
+          <div class="menu-card">
+              <img src="../img/gallery/3.jpeg" alt="Kegiatan 2" class="menu-card-img" />
+              <h3 class="menu-card-title"><a href="more_kegiatan/raker.html">Rapat Kerja Pengurus tahun 2025/2026</a></h3>
+              <p class="menu-card-price">Sebagai bentuk awal kepengurusan HMSI mengadakan rapat kerja sebagai langkah awal untuk menjalankan program kerja pada bidangnya masing-masing.</p>
+            </div>
+            <div class="menu-card">
+              <img src="../img/gallery/1.jpeg" alt="Kegiatan 1" class="menu-card-img" />
+              <h3 class="menu-card-title"><a href="more_kegiatan/pkkmb.html">PKKMB Semester Genap 2024/2025</a></h3>
+              <p class="menu-card-price">Pengenalan HIMA kepada mahasiswa baru pada kegiatan PKKMB Semester Genap 2024/2025 pada hari Kamis 22 Februari 2025.</p>
+            </div>
+        </div>          
+      </section>      
+    <!-- Kegiatan end -->      
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/hmsi_unpam/" target="_blank"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://www.tiktok.com/@hmsi_unpam" target="_blank"
+          ><i data-feather="video"></i
+        ></a>
+        <a href="mailto:hmsi.unpam@gmail.com"><i data-feather="mail"></i></a>
+      </div>
+      <!-- <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Gallery</a>
+        <a href="#contact">Kontak</a>
+      </div> -->
+      <div class="credit">
+        <p>Created by <a href="index.html">Himpunan Mahasiswa Sistem Informasi</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="../js/script.js"></script>
+
+    <!-- Lightbox container -->
+    <div class="lightbox" id="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <img src="" alt="Lightbox Image" id="lightbox-img">
+    </div>  
+  </body>
+</html>

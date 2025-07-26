@@ -306,7 +306,7 @@ body {
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #222;
+  background-color: #301c88;
 }
 
 .contact .row .map {
@@ -319,6 +319,34 @@ body {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
+}
+
+.contact .row .contact-info {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.contact .row .contact-info .input-grup {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.contact .row .contact-info .input-grup i {
+  margin-right: 3rem;
+  margin-left: 0.5rem;
+  min-width: 24px;
+  color: var(--primary);
+}
+
+.contact .row .contact-info .input-grup a,
+.contact .row .contact-info .input-grup span {
+  font-size: 1.7rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 .contact .row form .input-grup {
@@ -347,6 +375,7 @@ body {
   background-color: var(--primary);
   cursor: pointer;
 }
+
 
 /* footer section */
 /* Tambahkan atau modifikasi CSS berikut */
@@ -412,6 +441,20 @@ footer .credit p {
 @media (max-width: 758px) {
   html {
     font-size: 62.5%;
+  }
+  .kegiatan-wrapper {
+    gap: 1.5rem;
+  }
+  .kegiatan-wrapper .menu-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .kegiatan-wrapper {
+    gap: 1.5rem;
+  }
+
+  .kegiatan-wrapper .menu-card {
+    margin-bottom: 1.5rem;
   }
 
   #hamburger-menu {
@@ -689,3 +732,98 @@ footer .credit p {
 .menu-card img:hover {
   transform: scale(1.05);
 }
+
+.visi-misi {
+  padding: 2rem 7%;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.visi-misi h3 {
+  font-size: 2.4rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.visi-misi p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.visi-misi ol {
+  padding-left: 2rem;
+}
+
+.visi-misi ol li {
+  margin-bottom: 1.2rem;
+}
+
+.visi-misi-subtext {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* CSS khusus untuk halaman kegiatan */
+.kegiatan-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.kegiatan-wrapper .menu-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+  max-width: 350px;
+  margin-bottom: 1.5rem;
+}
+
+.kegiatan-wrapper .menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.kegiatan-wrapper .menu-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.kegiatan-wrapper .menu-card-title {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-align: center;
+}
+
+.kegiatan-wrapper .menu-card-title a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.kegiatan-wrapper .menu-card-title a:hover {
+  color: var(--primary);
+}
+
+.kegiatan-wrapper .menu-card-price {
+  font-size: 1rem;
+  text-align: center;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.kegiatan {
+   padding-top: 5rem;
+}
+
+
+
